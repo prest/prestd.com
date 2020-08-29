@@ -1,0 +1,315 @@
+/*=========================================================
+Author       : Bestwebcreator.
+Template Name: Cryptoking - Bitcoin & ICO Cryptocurrency Landing Page HTML Template
+Version      : 1.5
+==============================================================*/
+
+body {
+	direction:rtl;
+}
+.color-switch {
+	left:auto;
+	right:-200px;
+}
+.demo ul, .switch-active {
+	left:auto;
+	right:0;
+}
+.icon.switch-active {
+	left:auto;
+    right: 200px;
+}
+.demo li a {
+	left:auto;
+	right:0;
+}
+.demo ul li {
+	list-style:none;
+}
+.nav_btn li {
+	margin-left:0;
+    margin-right: 10px;
+}
+.btn i {
+	margin-left:0;
+	margin-right:5px;
+}
+.btn span {
+	margin-left: 10px;
+	margin-right: -20px;
+}
+.btn .ion-ios-arrow-thin-right:before,
+.btn .ion-android-send:before {
+	-ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(180deg);
+}
+.btn + .btn:last-child {
+	margin-left:0;
+    margin-right: 10px;
+}
+
+.work_box {
+    padding-right: 30px;
+	padding-left:0;
+}
+
+
+.chart_list li {
+	border-left: 0;
+	border-right: 3px solid #7a7a7a;
+}
+
+.faq_content .card-header a::after {
+	left:15px;
+	right:auto;
+}
+.faq_content .card-header a::before {
+    margin-left: 5px;
+	margin-right:0;
+    float: right;
+}
+
+.faq_content .card-header a {
+	padding: 15px 15px 15px 40px;
+}
+
+.contact_detail {
+	border-left: 0;
+    border-right: 1px solid #ffffff;
+	padding-left : 0;
+    padding-right: 10px;
+}
+.footer_menu {
+    text-align: left;
+}
+.newsletter_form button {
+	left:5px;
+	right:auto;
+}
+.outline_input input {
+	padding-left: 37%;
+	padding-right:20px;
+}
+
+.scrollup {
+	left:20px; 
+	right:auto;
+}
+
+.mfp-content {
+    text-align: right;
+}
+.mfp-close {
+	left:0;
+	right:auto;
+}
+
+
+.form_search button {
+	left: 20px;
+	right:auto;
+}
+
+.form_search input{
+	padding-left:45px;
+	padding-right:20px;
+}
+.widget_category li a, .widget_archive li a {
+	padding-left:0px;
+    padding-right: 20px;
+}
+.widget_category li a::before, .widget_archive li a::before {
+	left: auto;
+    right: 0;
+	-ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(180deg); 
+}
+.widget_title::before {
+	left:auto;
+	right:0;
+}
+.widget-post-thumb {
+    float: right;
+}
+.widget-post-content {
+    padding-left: 0px;
+	padding-right: 15px;
+}
+.blog_meta li {
+    float: right;
+    padding-left: 15px;
+	padding-right: 0px;
+}
+.pagination li:first-child a {
+    border-radius: 0 5px 5px 0;
+}
+.pagination li:last-child a {
+    border-radius: 5px 0px 0px 5px;
+}
+.pagination li i:before {
+	-ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(180deg); 
+}
+.social-share li {
+    float: right;
+}
+.comment_content {
+	padding-left: 0px;
+    padding-right: 20px;
+}
+.comment_info.reply {
+	padding-left: 0px;
+    padding-right: 90px;
+}
+
+.progress_max_val {
+	left: 0;
+	right:auto;
+}
+
+.checkbox_field label {
+	padding-left: 0px;
+	padding-right: 20px;
+}
+.checkbox_field label::before {
+	left:auto;
+	right: 0;
+}
+.forgot_pass {
+    float: left;
+}
+
+
+.tk_sale_info {
+    border-right: 1px solid #ffffff;
+	border-left: 0px;
+    padding-right: 30px;
+	padding-left: 30px;
+}
+.tk_pricing_info span {
+    float: right;
+    padding-left: 5px;
+}
+.tk_pricing_info li img {
+    margin-left: 7px;
+	margin-right:0;
+}
+.tk_pricing_info li img {
+    margin-left: 7px;
+}
+.faq_box .card-header a::after {
+    left: 15px;
+    right:auto;
+}
+.wp_document li {
+    float: right;
+}	
+.timeline_content {
+    text-align: left;
+}
+.tm_date {
+    left:auto;
+    right: 113%;
+    text-align: right;
+}
+.timeline_block:nth-child(2n) .timeline_content {
+    float: left;
+    text-align: right;
+}
+.timeline_block:nth-child(2n) .tm_date {
+    right: auto;
+    left: 113%;
+    text-align: left;
+}
+.app_btn li {
+    margin-left: 10px;
+	margin-right:0;
+}
+.con_dt i {
+    margin-left: 10px;
+	margin-right:0;
+}
+.form_submit {
+    text-align: left;
+}
+.footer_link li {
+    float: right;
+}
+.footer_link li:nth-child(2n+1) {
+    padding-left: 15px;
+    padding-right: 0;
+}
+
+
+@media only screen and (max-width: 1199px) {
+.mobileapp .btn span {
+	margin-left: 10px !important;
+    margin-right: -12px !important;
+}
+
+}
+
+@media only screen and (max-width: 991px) {
+.tk_sale_info {
+	border-right:0;
+	padding-right: 0;
+}
+.tk_sale_info .tk_pricing_info li {
+    margin-left: 10px;
+    margin-right: 0;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.timeline_wrap::before,
+.timeline_icon {
+    right: 15px;
+    left: auto;
+}
+.timeline_wrap .timeline_block {
+    padding-right: 40px;
+    padding-left: 0;
+}
+.timeline_wrap .timeline_content,
+.timeline_wrap .timeline_block:nth-child(2n) .timeline_content {
+    text-align: right;
+}
+.tm_date {
+    right: auto;
+    left: 113%;
+    text-align: left;
+}
+.timeline_icon {
+	transform: translateX(50%);
+}
+
+}
+
+@media only screen and (max-width: 640px) {
+.work_box {
+    padding-right: 0;
+	padding-left:0;
+}
+.comment_info.reply {
+    padding-right: 60px !important;
+    padding-left: 0 !important;
+}
+}
+
+@media only screen and (max-width: 480px) {
+.btn span {
+    margin-left: 10px !important;
+    margin-right: -12px;
+}
+.outline_input input {
+	padding:10px 20px !important;
+}	
+
+.comment_info.reply {
+    padding-left: 0 !important;; 
+    padding-right: 40px !important;;
+}
+}
