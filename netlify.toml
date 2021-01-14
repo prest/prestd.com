@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "https://postgres.rest/*"
+  to = "https://prestd.com/:splat"
+  status = 301
+  force = true
+  headers = {X-From = "Netlify"}
