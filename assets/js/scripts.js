@@ -202,37 +202,6 @@
             $(this).html(tm.strftime('<span class="counter_box"><span class="tk_counter days">%D </span><span class="tk_text">Days</span></span><span class="counter_box"><span class="tk_counter hours">%H</span><span class="tk_text">Hours</span></span><span class="counter_box"><span class="tk_counter minutes">%M</span><span class="tk_text">Minutes</span></span><span class="counter_box"><span class="tk_counter seconds">%S</span><span class="tk_text">Seconds</span></span>'))
         })
     });
-    $(".video").magnificPopup({
-        type: "iframe"
-    });
-    $("#submitButton").on("click", function (event) {
-        event.preventDefault();
-        var mydata = $("form").serialize();
-        $.ajax({
-            type: "POST",
-            dataType: "json",
-            url: "contact.php",
-            data: mydata,
-            success: function (data) {
-                if (data.type === "error") {
-                    $("#alert-msg").removeClass("alert-msg-success");
-                    $("#alert-msg").addClass("alert-msg-failure")
-                } else {
-                    $("#alert-msg").addClass("alert-msg-success");
-                    $("#alert-msg").removeClass("alert-msg-failure");
-                    $("#first-name").val("Enter Name");
-                    $("#email").val("Enter Email");
-                    $("#subject").val("Enter Subject");
-                    $("#description").val("Enter Message")
-                }
-                $("#alert-msg").html(data.msg);
-                $("#alert-msg").show()
-            },
-            error: function (xhr, textStatus) {
-                alert(textStatus)
-            }
-        })
-    });
     $(window).scroll(function () {
         if ($(this).scrollTop() > 150) {
             $(".scrollup").fadeIn()
@@ -246,11 +215,6 @@
             scrollTop: 0
         }, 600);
         return false
-    });
-    $(".content-popup").magnificPopup({
-        type: "inline",
-        preloader: true,
-        mainClass: "mfp-zoom"
     });
     $(function () {
         function ckScrollInit(items, trigger) {
@@ -276,13 +240,4 @@
         ckScrollInit($(".animation"));
         ckScrollInit($(".staggered-animation"), $(".staggered-animation-wrap"))
     });
-    $(".toggle-password").on("click", function () {
-        $(this).toggleClass("ion-eye ion-eye-disabled");
-        var input = $($(this).attr("data-toggle"));
-        if (input.attr("type") == "password") {
-            input.attr("type", "text")
-        } else {
-            input.attr("type", "password")
-        }
-    })
 })(jQuery);
