@@ -402,7 +402,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <p class="copyright staggered-animation" data-animation="fadeInLeft" data-animation-delay="0.1s">Copyright © 2016 All Rights Reserved</p>
+                        <p class="copyright staggered-animation" data-animation="fadeInLeft" data-animation-delay="0.1s" id="copyright">Copyright © 2016 All Rights Reserved</p>
                     </div>
                     <div class="col-md-6">
                         <ul class="list_none footer_menu staggered-animation" data-animation="fadeInRight" data-animation-delay="0.2s">
@@ -466,6 +466,14 @@
         </div>
     </script>
     <script src="/assets/js/github_contrib.js"></script>
+    <script>
+        const copyright =
+          `Copyright © 2016 - ${ new Date().getFullYear() } All Rights Reserved`
+        
+        document
+          .getElementById("copyright")
+          .innerHTML = copyright
+    </script>
 
 </body>
 
